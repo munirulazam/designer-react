@@ -1,0 +1,19 @@
+.loader {
+  background-color: #2a2a2a;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 222222;
+}
+.loader svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.loader svg path,
+.loader svg rect {
+  fill: #ff565b;
+}
